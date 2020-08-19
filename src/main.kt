@@ -1,5 +1,10 @@
+import utils.FileUtil
+
 fun main(){
     print("wilson")
+
+//    FileUtil.touch("/Users/wilson/Downloads/ee.amr")
+    FileUtil.saveTo("/Users/wilson/Downloads/ee.amr","wilson")
 
 }
 
